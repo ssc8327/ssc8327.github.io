@@ -19,24 +19,29 @@
         <meta name="keywords" content="Blog,Personal,HomePage">
     
     <meta name="description" content="">
-    <meta name="description" content="致敬掘井者，并传承伟大的互联网精神">
+    <meta name="description" content="C学习笔记">
 <meta property="og:type" content="article">
-<meta property="og:title" content="关于&quot;镜像站&quot;">
-<meta property="og:url" content="https://islandwho.top/2021/10/29/4/index.html">
+<meta property="og:title" content="C基础 -- 循环">
+<meta property="og:url" content="https://islandwho.top/2021/12/19/10/index.html">
 <meta property="og:site_name" content="屿谁的个人博客">
-<meta property="og:description" content="致敬掘井者，并传承伟大的互联网精神">
+<meta property="og:description" content="C学习笔记">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2021-10-29T15:25:00.000Z">
-<meta property="article:modified_time" content="2021-10-30T01:40:36.000Z">
+<meta property="og:image" content="https://islandwho.top/images/10_1.png">
+<meta property="og:image" content="https://islandwho.top/images/10_2.png">
+<meta property="og:image" content="https://islandwho.top/images/10_3.png">
+<meta property="og:image" content="https://islandwho.top/images/10_4.png">
+<meta property="article:published_time" content="2021-12-19T03:12:27.000Z">
+<meta property="article:modified_time" content="2021-12-19T04:20:08.235Z">
 <meta property="article:author" content="宋同学">
-<meta property="article:tag" content="Node">
-<meta property="article:tag" content="npm">
+<meta property="article:tag" content="CL">
+<meta property="article:tag" content="笔记">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://islandwho.top/images/10_1.png">
     <meta http-equiv="Cache-control" content="no-cache">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <link rel="icon" href="/assets/btl.ico">
     
-    <title>关于&#34;镜像站&#34; · 宋同学的博客</title>
+    <title>C基础 -- 循环 · 宋同学的博客</title>
     <!-- /*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
 /* This file is meant as a standalone workflow for
 - testing support for link[rel=preload]
@@ -265,7 +270,7 @@
                 <a href="/">Songtongxue&#39;s Blog</a>
             </div>
             <div class="post-title header-element">
-                <a href="#" class="post-name">关于"镜像站"</a>
+                <a href="#" class="post-name">C基础 -- 循环</a>
             </div>
         </div>
     
@@ -305,13 +310,13 @@
     <!-- 404页  -->
             
     <div class="site-intro-placeholder"></div>
-    <div class="site-intro-img" style="background-image: url(/intro/4_head.jpg)"></div>
+    <div class="site-intro-img" style="background-image: url(/intro/post-bg.jpg)"></div>
     <div class="site-intro-meta">
         <!-- 标题  -->
         <h1 class="intro-title">
             <!-- 主页  -->
             
-                关于"镜像站"
+                C基础 -- 循环
             <!-- 404 -->
             
         </h1>
@@ -331,22 +336,22 @@
                     <div class= post-intro-tags >
     
     
-        <a class="post-tag" href="javascript:void(0);" data-tags="Node">Node</a>
+        <a class="post-tag" href="javascript:void(0);" data-tags="CL">CL</a>
     
-        <a class="post-tag" href="javascript:void(0);" data-tags="npm">npm</a>
+        <a class="post-tag" href="javascript:void(0);" data-tags="笔记">笔记</a>
     
 </div>
 
                 
                 
                     <div class="post-intro-read">
-                        <span>字数统计: <span class="post-count word-count">521</span>阅读时长: <span class="post-count reading-time">1 min</span></span>
+                        <span>字数统计: <span class="post-count word-count">557</span>阅读时长: <span class="post-count reading-time">2 min</span></span>
                     </div>
                 
                 <div class="post-intro-meta">
                     <!-- 撰写日期 -->
                     <span class="iconfont-archer post-intro-calander">&#xe676;</span>
-                    <span class="post-intro-time">2021/10/29</span>
+                    <span class="post-intro-time">2021/12/19</span>
                     <!-- busuanzi -->
                     
                         <span id="busuanzi_container_page_pv" class="busuanzi-pv">
@@ -501,47 +506,54 @@
             <div class="container container-unloaded">
                 <main class="main post-page">
     <article class="article-entry">
-        <h3 id="致敬掘井者，并传承伟大的互联网精神"><a href="#致敬掘井者，并传承伟大的互联网精神" class="headerlink" title="致敬掘井者，并传承伟大的互联网精神"></a>致敬掘井者，并传承伟大的互联网精神</h3><span id="more"></span>
+        <p>C学习笔记</p>
+<span id="more"></span>
 
-<h1 id="为什么需要镜像站？"><a href="#为什么需要镜像站？" class="headerlink" title="#为什么需要镜像站？"></a>#为什么需要镜像站？</h1><p>因为国内出口带宽过小，还有GFW的存在，导致很多国外的技术资源下载速度极慢甚至无法下载，使项目在安装的时候要费很多时间。镜像站的存在可以解决这个问题。</p>
-<p><strong>宣传开源，回报社区</strong>。网易，阿里，腾讯纷纷做镜像站，这对开源社区来说是好事。</p>
-<p>并且,当遇到大量的机器需要联网更新系统和软件的时候，用镜像站点会大大节省时间提高效率。对拥有大量服务器资源的互联网企业来说，放在自己环境里的镜像站点对自身大规模的服务器运维也很有帮助。</p>
-<p>此外像阿里云的镜像站就对阿里云服务器的用户提供了内网访问地址，不占用任何公网流量，对客户也是有好处的。</p>
-<h1 id="什么是镜像站？"><a href="#什么是镜像站？" class="headerlink" title="#什么是镜像站？"></a>#什么是镜像站？</h1><p>镜像站就是在国内搭建一个平台，并且同步源目标站的数据信息，以此解决访问缓慢的问题。可以认为是把国外的一些开源软件映射到了国内的服务器，减少路由器的转发量，提高更新软件的速度。</p>
-<h1 id="开源镜像站推荐"><a href="#开源镜像站推荐" class="headerlink" title="#开源镜像站推荐"></a>#开源镜像站推荐</h1><p><a target="_blank" rel="noopener" href="https://mirror.tuna.tsinghua.edu.cn/">清华大学开源软件镜像站</a></p>
-<p><a target="_blank" rel="noopener" href="http://mirrors.163.com/">网易开源镜像站</a></p>
-<h1 id="使用-npm-时推荐"><a href="#使用-npm-时推荐" class="headerlink" title="#使用 npm 时推荐"></a>#使用 npm 时推荐</h1><p><a target="_blank" rel="noopener" href="https://npmmirror.com/">淘宝 NPM 镜像</a></p>
-<h2 id="使用方法："><a href="#使用方法：" class="headerlink" title="使用方法："></a>使用方法：</h2><h3 id="方法一：通过config命令-（可永久使用，方便）"><a href="#方法一：通过config命令-（可永久使用，方便）" class="headerlink" title="方法一：通过config命令  （可永久使用，方便）"></a>方法一：通过config命令  （可永久使用，方便）</h3><p>打开 Node 后，执行</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm config set registry https:<span class="comment">//registry.npm.taobao.org</span></span><br></pre></td></tr></table></figure>
+<h1 id="循环"><a href="#循环" class="headerlink" title="#循环"></a>#循环</h1><h2 id="while循环"><a href="#while循环" class="headerlink" title="#while循环"></a>#while循环</h2><p>可以把while翻译为”当”，那么一个while循环的意思就是：当条件满足时，不断地重复循环体内的语句。</p>
+<p>循环每次之前都会判断条件是否成立。并且条件成立是循环继续的条件。</p>
+<p>流程图:</p>
+<p><img src="/images/10_1.png" alt="10_1"></p>
+<p>基本语句:</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">while</span>(循环条件)&#123;</span><br><span class="line">	循环语句</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p>即可设置成功</p>
-<p>检测是否成功：执行</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm config get registry </span><br></pre></td></tr></table></figure>
+<h2 id="do-while循环"><a href="#do-while循环" class="headerlink" title="#do - while循环"></a>#do - while循环</h2><p>在进入循环的时候不做检查，而是在执行完一轮循环体的代码之后，再来检查循环的条件是否满足，如果满足则继续下一轮循环，不满足则结束循环。</p>
+<p>流程图</p>
+<p><img src="/images/10_2.png" alt="10_2"></p>
+<p>基本语句:</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">do</span>&#123;</span><br><span class="line">    循环语句</span><br><span class="line">&#125;<span class="keyword">while</span>(循环条件);</span><br></pre></td></tr></table></figure>
 
-<p>若返回为</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https:<span class="comment">//registry.npm.taobao.org/</span></span><br></pre></td></tr></table></figure>
-
-<p>代表设置成功</p>
-<h3 id="方法二：命令行指定-（临时使用，单次，每次使用需要重新设置）"><a href="#方法二：命令行指定-（临时使用，单次，每次使用需要重新设置）" class="headerlink" title="方法二：命令行指定 （临时使用，单次，每次使用需要重新设置）"></a>方法二：命令行指定 （临时使用，单次，每次使用需要重新设置）</h3><p>执行</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm --registry https:<span class="comment">//registry.npm.taobao.org info underscore</span></span><br></pre></td></tr></table></figure>
-
-<p>即可</p>
-<h2 id="恢复初始地址"><a href="#恢复初始地址" class="headerlink" title="#恢复初始地址"></a>#恢复初始地址</h2><p>执行</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm config set registry https:<span class="comment">//registry.npmjs.org</span></span><br></pre></td></tr></table></figure>
-
-<p>即可</p>
-<blockquote>
-<p>本文部分资料参考CNode、OSCHINA、知乎社区公开文章</p>
-</blockquote>
+<h1 id="循环应用"><a href="#循环应用" class="headerlink" title="#循环应用"></a>#循环应用</h1><h2 id="实例①-–-猜数游戏"><a href="#实例①-–-猜数游戏" class="headerlink" title="实例① – 猜数游戏"></a>实例① – 猜数游戏</h2><p>规则：让计算机想一个数，然后让用户来猜，用户每输入一个数，就告诉它是大了还是小了，直到用户猜中为止，最后还要告诉用户一共猜了多少次。</p>
+<p>思路:</p>
+<p>1.计算机随机想一个数，记在变量number里。</p>
+<p>2.初始化一个负责计数的变量count。</p>
+<p>3.让用户输入一个数字a。</p>
+<p>4.count递增(count++)。</p>
+<p>5.判断随机数number和输入数字a的大小关系。若a&gt;number则输出”输入的数大”;若a&lt;number则输出”输入的数小”。</p>
+<p>6.如果a和number是不相等的,则跳转至第3步继续循环。</p>
+<p>7.否则，程序输出”猜中啦!”和一共猜的次数。</p>
+<p>代码:</p>
+<p><img src="/images/10_3.png" alt="10_3"></p>
+<h3 id="关于随机数"><a href="#关于随机数" class="headerlink" title="关于随机数"></a>关于随机数</h3><p>rand()为输出随机数。</p>
+<p>同时，使用 srand(time(0))以系统时间为基准重置随机数。</p>
+<h3 id="关于取余"><a href="#关于取余" class="headerlink" title="关于取余"></a>关于取余</h3><p>x % n 的结果是 [0,n-1]的一个整数。</p>
+<h2 id="实例②-–-算平均数"><a href="#实例②-–-算平均数" class="headerlink" title="实例② – 算平均数"></a>实例② – 算平均数</h2><p>$$<br>\begin{equation}<br>\overline{x} = \frac{\sum\limits_{i=1}^{n}x_{i}}{n}<br>\end{equation}<br>$$</p>
+<p>规则：让用户输入一系列正整数,最后输入-1表示输入结束,然后程序计算出这些数字的平均数，输出输入的数字的个数和平均数。</p>
+<p>思路：</p>
+<p>1.初始化变量sum和count为0。</p>
+<p>2.读入number。</p>
+<p>3.如果number不是-1,则将number加入sum,并将count加1,回到2。</p>
+<p>4.如果number是-1,则计算和打印出sum/count(转为浮点数)。</p>
+<p>代码：</p>
+<p><img src="/images/10_4.png" alt="10_4"></p>
 
     </article>
     <!-- license -->
     
         <div class="license-wrapper">
             <p>原文作者：<a href="https://islandwho.top">宋同学</a>
-            <p>原文链接：<a href="https://islandwho.top/2021/10/29/4/">https://islandwho.top/2021/10/29/4/</a>
-            <p>发表日期：<a href="https://islandwho.top/2021/10/29/4/">October 29th 2021, 11:25:00 pm</a>
-            <p>更新日期：<a href="https://islandwho.top/2021/10/29/4/">October 30th 2021, 9:40:36 am</a>
+            <p>原文链接：<a href="https://islandwho.top/2021/12/19/10/">https://islandwho.top/2021/12/19/10/</a>
+            <p>发表日期：<a href="https://islandwho.top/2021/12/19/10/">December 19th 2021, 11:12:27 am</a>
+            <p>更新日期：<a href="https://islandwho.top/2021/12/19/10/">December 19th 2021, 12:20:08 pm</a>
             <p>版权声明：本文采用<a rel="license noopener" target="_blank" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可</p>
         </div>
     
@@ -549,17 +561,12 @@
     <ul class="post-paginator">
         <li class="next">
             
-                <div class="nextSlogan">Next Post</div>
-                <a href="/2021/10/30/5/" title="读书专栏 -- 鲁迅 (持续更新)">
-                    <div class="nextTitle">读书专栏 -- 鲁迅 (持续更新)</div>
-                </a>
-            
         </li>
         <li class="previous">
             
                 <div class="prevSlogan">Previous Post</div>
-                <a href="/2021/10/29/3/" title="Hexo -- 添加标签与归档">
-                    <div class="prevTitle">Hexo -- 添加标签与归档</div>
+                <a href="/2021/12/18/9/" title="关于目前"Bing"无法访问的暂时解决方法">
+                    <div class="prevTitle">关于目前"Bing"无法访问的暂时解决方法</div>
                 </a>
             
         </li>
@@ -707,7 +714,7 @@
                 <div class="toc-catalog">
                     <span class="iconfont-archer catalog-icon">&#xe613;</span><span>CATALOG</span>
                 </div>
-                <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%87%B4%E6%95%AC%E6%8E%98%E4%BA%95%E8%80%85%EF%BC%8C%E5%B9%B6%E4%BC%A0%E6%89%BF%E4%BC%9F%E5%A4%A7%E7%9A%84%E4%BA%92%E8%81%94%E7%BD%91%E7%B2%BE%E7%A5%9E"><span class="toc-number">1.</span> <span class="toc-text">致敬掘井者，并传承伟大的互联网精神</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E9%9C%80%E8%A6%81%E9%95%9C%E5%83%8F%E7%AB%99%EF%BC%9F"><span class="toc-number"></span> <span class="toc-text">#为什么需要镜像站？</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF%E9%95%9C%E5%83%8F%E7%AB%99%EF%BC%9F"><span class="toc-number"></span> <span class="toc-text">#什么是镜像站？</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%BC%80%E6%BA%90%E9%95%9C%E5%83%8F%E7%AB%99%E6%8E%A8%E8%8D%90"><span class="toc-number"></span> <span class="toc-text">#开源镜像站推荐</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8-npm-%E6%97%B6%E6%8E%A8%E8%8D%90"><span class="toc-number"></span> <span class="toc-text">#使用 npm 时推荐</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95%EF%BC%9A"><span class="toc-number"></span> <span class="toc-text">使用方法：</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%B9%E6%B3%95%E4%B8%80%EF%BC%9A%E9%80%9A%E8%BF%87config%E5%91%BD%E4%BB%A4-%EF%BC%88%E5%8F%AF%E6%B0%B8%E4%B9%85%E4%BD%BF%E7%94%A8%EF%BC%8C%E6%96%B9%E4%BE%BF%EF%BC%89"><span class="toc-number">1.</span> <span class="toc-text">方法一：通过config命令  （可永久使用，方便）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%B9%E6%B3%95%E4%BA%8C%EF%BC%9A%E5%91%BD%E4%BB%A4%E8%A1%8C%E6%8C%87%E5%AE%9A-%EF%BC%88%E4%B8%B4%E6%97%B6%E4%BD%BF%E7%94%A8%EF%BC%8C%E5%8D%95%E6%AC%A1%EF%BC%8C%E6%AF%8F%E6%AC%A1%E4%BD%BF%E7%94%A8%E9%9C%80%E8%A6%81%E9%87%8D%E6%96%B0%E8%AE%BE%E7%BD%AE%EF%BC%89"><span class="toc-number">2.</span> <span class="toc-text">方法二：命令行指定 （临时使用，单次，每次使用需要重新设置）</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%81%A2%E5%A4%8D%E5%88%9D%E5%A7%8B%E5%9C%B0%E5%9D%80"><span class="toc-number"></span> <span class="toc-text">#恢复初始地址</span></a>
+                <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%BE%AA%E7%8E%AF"><span class="toc-number">1.</span> <span class="toc-text">#循环</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#while%E5%BE%AA%E7%8E%AF"><span class="toc-number">1.1.</span> <span class="toc-text">#while循环</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#do-while%E5%BE%AA%E7%8E%AF"><span class="toc-number">1.2.</span> <span class="toc-text">#do - while循环</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%BE%AA%E7%8E%AF%E5%BA%94%E7%94%A8"><span class="toc-number">2.</span> <span class="toc-text">#循环应用</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%9E%E4%BE%8B%E2%91%A0-%E2%80%93-%E7%8C%9C%E6%95%B0%E6%B8%B8%E6%88%8F"><span class="toc-number">2.1.</span> <span class="toc-text">实例① – 猜数游戏</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%B3%E4%BA%8E%E9%9A%8F%E6%9C%BA%E6%95%B0"><span class="toc-number">2.1.1.</span> <span class="toc-text">关于随机数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%B3%E4%BA%8E%E5%8F%96%E4%BD%99"><span class="toc-number">2.1.2.</span> <span class="toc-text">关于取余</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%9E%E4%BE%8B%E2%91%A1-%E2%80%93-%E7%AE%97%E5%B9%B3%E5%9D%87%E6%95%B0"><span class="toc-number">2.2.</span> <span class="toc-text">实例② – 算平均数</span></a></li></ol></li></ol>
             </div>
         
         <!-- sidebar -->
